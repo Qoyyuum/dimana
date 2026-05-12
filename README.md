@@ -1,51 +1,75 @@
-# Di Mana?
+# Nuxt Minimal Starter
 
-Learn Brunei Darussalam's geography with spaced repetition.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-**Preview:** https://public-tsxkljgo.devinapps.com
+## Setup
 
-## Features
-
-- 🗺️ Interactive map with MapLibre GL JS
-- 📝 Name It & Find It study modes
-- 🧠 FSRS spaced repetition scheduling
-- 📊 Quiz mode with multiple choice by district
-- 🌐 Bilingual UI (English / Bahasa Melayu)
-- 💾 Progress saved locally (no account needed)
-
-## Data
-
-- 4 districts, 39 mukims, 451 kampongs
-- GIS data from [bruneimap](https://github.com/Bruneiverse/bruneimap) by Haziq Jamil
-- Source: [Nadi.BN](https://www.nadi.bn), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-## Tech Stack
-
-- [Nuxt 3](https://nuxt.com) + [Vue 3](https://vuejs.org)
-- [MapLibre GL JS](https://maplibre.org) + OpenStreetMap tiles
-- [Tailwind CSS](https://tailwindcss.com)
-- [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
-- [@nuxtjs/i18n](https://i18n.nuxtjs.org)
-
-## Development
+Make sure to install dependencies:
 
 ```bash
+# npm
 npm install
-npm run dev
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-## Build
+## Development Server
+
+Start the development server on `http://localhost:3000`:
 
 ```bash
-npm run generate
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-Output in `.output/public/` — deploy to any static host.
+## Production
 
-## License
+Build the application for production:
 
-MIT
+```bash
+# npm
+npm run build
 
-## Acknowledgements
+# pnpm
+pnpm build
 
-Inspired by [whereabouts.earth](https://whereabouts.earth) by Trey Hunner.
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
