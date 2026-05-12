@@ -1,0 +1,3419 @@
+{
+  "districts": [
+    {
+      "id": "district-1",
+      "name": "Belait",
+      "type": "district"
+    },
+    {
+      "id": "district-2",
+      "name": "Tutong",
+      "type": "district"
+    },
+    {
+      "id": "district-3",
+      "name": "Temburong",
+      "type": "district"
+    },
+    {
+      "id": "district-8",
+      "name": "Brunei-Muara",
+      "type": "district"
+    }
+  ],
+  "mukims": [
+    {
+      "id": "mukim-39",
+      "name": "Sungai Kedayan",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-41",
+      "name": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-42",
+      "name": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-43",
+      "name": "Bangar",
+      "district": "Temburong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-1",
+      "name": "Melilas",
+      "district": "Belait",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-2",
+      "name": "Sukang",
+      "district": "Belait",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-3",
+      "name": "Kuala Balai",
+      "district": "Belait",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-4",
+      "name": "Kuala Belait",
+      "district": "Belait",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-5",
+      "name": "Bukit Sawat",
+      "district": "Belait",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-6",
+      "name": "Seria",
+      "district": "Belait",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-7",
+      "name": "Amo",
+      "district": "Temburong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-8",
+      "name": "Liang",
+      "district": "Belait",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-9",
+      "name": "Batu Apoi",
+      "district": "Temburong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-10",
+      "name": "Telisai",
+      "district": "Tutong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-11",
+      "name": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-12",
+      "name": "Bokok",
+      "district": "Temburong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-13",
+      "name": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-14",
+      "name": "Labu",
+      "district": "Temburong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-15",
+      "name": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-16",
+      "name": "Sungai Kebun",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-17",
+      "name": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-18",
+      "name": "Saba",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-19",
+      "name": "Peramu",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-20",
+      "name": "Tamoi",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-21",
+      "name": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-22",
+      "name": "Rambai",
+      "district": "Tutong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-23",
+      "name": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-24",
+      "name": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-25",
+      "name": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-26",
+      "name": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-27",
+      "name": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-28",
+      "name": "Serasa",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-30",
+      "name": "Labi",
+      "district": "Belait",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-31",
+      "name": "Ukong",
+      "district": "Tutong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-32",
+      "name": "Lamunin",
+      "district": "Tutong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-35",
+      "name": "Kiudang",
+      "district": "Tutong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-36",
+      "name": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-37",
+      "name": "Keriam",
+      "district": "Tutong",
+      "type": "mukim"
+    },
+    {
+      "id": "mukim-38",
+      "name": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "mukim"
+    }
+  ],
+  "kampongs": [
+    {
+      "id": "kampong-28",
+      "name": "Perumahan Negara Rimba Kawasan 5",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-29",
+      "name": "Perumahan Negara Mentiri Kawasan A",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-30",
+      "name": "Perumahan Negara Mentiri Kawasan B",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-31",
+      "name": "Kawasan Jabatan-Jabatan dan Perumahan Kerajaan",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-32",
+      "name": "Kg. Anggerek Desa",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-25",
+      "name": "Perumahan Negara Rimba Kawasan 3",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-26",
+      "name": "Perumahan Negara Lambak Kanan Kawasan 4",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-27",
+      "name": "Perumahan Negara Lambak Kanan Kawasan 5",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-1",
+      "name": "Kg. Biang",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-2",
+      "name": "Kg. Amo",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-3",
+      "name": "Kg. Sibut",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-4",
+      "name": "Kg. Sumbiling Baru",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-5",
+      "name": "Kg. Batang Duri",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-6",
+      "name": "Kg. Sumbiling Lama",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-7",
+      "name": "Hutan Simpan Batu Apoi",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-8",
+      "name": "Kg. Selapon",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-9",
+      "name": "Kg. Lepong",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-10",
+      "name": "Kg. Semabat",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-11",
+      "name": "Kawasan Bahaya",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-12",
+      "name": "Kg. Temada",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-13",
+      "name": "Hutan Simpan Batu Apoi",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-14",
+      "name": "Kg. Ikas",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-16",
+      "name": "Kg. Jaya Bakti",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-17",
+      "name": "Perumahan Negara Lambak Kanan Kawasan 2",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-33",
+      "name": "Kg. Bakut Berumput",
+      "mukim": "Peramu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-34",
+      "name": "Kg. Bakut Pengiran Siraja Muda A",
+      "mukim": "Peramu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-35",
+      "name": "Kg. Bakut Pengiran Siraja Muda B",
+      "mukim": "Peramu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-36",
+      "name": "Kg. Batang Perhentian",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-37",
+      "name": "Kg. Batong",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-15",
+      "name": "Kg. Katok",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-43",
+      "name": "Kg. Bengkurong",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-74",
+      "name": "Kg. Lambak B",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-22",
+      "name": "Perumahan Negara Rimba Kawasan 1",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-23",
+      "name": "Perumahan Negara Rimba Kawasan 2",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-24",
+      "name": "Perumahan Negara Lambak Kanan Kawasan 3",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-64",
+      "name": "Kg. Katimahar",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-65",
+      "name": "Kg. Kianggeh",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-66",
+      "name": "Kg. Kiarong",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-67",
+      "name": "Kg. Kilanas",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-68",
+      "name": "Kg. Kiulap",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-69",
+      "name": "Kg. Kota Batu",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-70",
+      "name": "Kg. Kuala Peminyak",
+      "mukim": "Sungai Kedayan",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-71",
+      "name": "Kg. Kulapis",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-72",
+      "name": "Kg. Kumbang Pasang",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-73",
+      "name": "Kg. Lambak A",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-75",
+      "name": "Kg. Lambak Kiri",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-76",
+      "name": "Kg. Limau Manis",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-77",
+      "name": "Kg. Limbongan",
+      "mukim": "Tamoi",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-78",
+      "name": "Kg. Lugu",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-79",
+      "name": "Kg. Lumapas",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-80",
+      "name": "Kg. Lupak Luas",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-81",
+      "name": "Kg. Lurong Dalam",
+      "mukim": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-82",
+      "name": "Kg. Lurong Sikuna",
+      "mukim": "Peramu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-83",
+      "name": "Kg. Madang",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-18",
+      "name": "Perumahan Negara Rimba Kawasan 4",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-19",
+      "name": "Lapangan Terbang Antarabangsa Brunei",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-20",
+      "name": "Hutan Simpan",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-21",
+      "name": "Perumahan Negara Lambak Kanan Kawasan 1",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-94",
+      "name": "Kg. Pancha Delima",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-95",
+      "name": "Kg. Panchor Murai",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-96",
+      "name": "Kg. Pandai Besi A",
+      "mukim": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-97",
+      "name": "Kg. Pandai Besi B",
+      "mukim": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-98",
+      "name": "Kg. Pangkalan Batu",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-99",
+      "name": "Kg. Pangkalan Gadong",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-100",
+      "name": "Kg. Pangkalan Sibabau",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-101",
+      "name": "Kg. Pasai",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-102",
+      "name": "Kg. Pekan Lama",
+      "mukim": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-103",
+      "name": "Kg. Pekilong Muara",
+      "mukim": "Peramu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-104",
+      "name": "Kg. Pelambaian",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-38",
+      "name": "Kg. Batu Ampar",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-39",
+      "name": "Kg. Batu Marang",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-40",
+      "name": "Kg. BebatIk",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-41",
+      "name": "Kg. Bebuloh",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-42",
+      "name": "Kg. Belimbing",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-44",
+      "name": "Kg. Berangan",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-45",
+      "name": "Kg. Beribi",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-46",
+      "name": "Kg. Bolkiah A",
+      "mukim": "Sungai Kebun",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-47",
+      "name": "Kg. Bolkiah B",
+      "mukim": "Sungai Kebun",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-48",
+      "name": "Kg. Buang Sakar",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-49",
+      "name": "Kg. Buang Tawar",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-50",
+      "name": "Kg. Buang Tekurok",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-51",
+      "name": "Kg. Bunut",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-52",
+      "name": "Kg. Bunut Perpindahan",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-53",
+      "name": "Kg. Burong Lepas",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-54",
+      "name": "Kg. Burong Pingai Ayer",
+      "mukim": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-55",
+      "name": "Kg. Burong Pingai Berakas",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-56",
+      "name": "Kg. Dato Gandi",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-57",
+      "name": "Kg. Gadong Batu",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-58",
+      "name": "Kg. Imang",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-59",
+      "name": "Kg. Jangsak",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-60",
+      "name": "Kg. Jaya Setia",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-61",
+      "name": "Kg. Jerudong",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-62",
+      "name": "Kg. Junjongan",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-63",
+      "name": "Kg. Kapok",
+      "mukim": "Serasa",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-141",
+      "name": "Kg. Sungai Asam",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-142",
+      "name": "Kg. Sungai Belukut",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-143",
+      "name": "Kg. Sungai Besar",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-144",
+      "name": "Kg. Sungai Hanching",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-145",
+      "name": "Kg. Sungai Kebun",
+      "mukim": "Sungai Kebun",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-146",
+      "name": "Kg. Sungai Kedayan A",
+      "mukim": "Sungai Kedayan",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-147",
+      "name": "Kg. Sungai Kedayan B",
+      "mukim": "Sungai Kedayan",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-148",
+      "name": "Kg. Sungai Matan",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-149",
+      "name": "Kg. Sungai Orok",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-150",
+      "name": "Kg. Sungai Pandan A",
+      "mukim": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-151",
+      "name": "Kg. Sungai Pandan B",
+      "mukim": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-84",
+      "name": "Kg. Madewa",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-85",
+      "name": "Kg. Manggis",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-86",
+      "name": "Kg. Masin",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-87",
+      "name": "Kg. Mata-Mata",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-88",
+      "name": "Kg. Melabau",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-89",
+      "name": "Kg. Menglait",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-90",
+      "name": "Kg. Mentiri",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-91",
+      "name": "Kg. Menunggul",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-92",
+      "name": "Kg. Mulaut",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-93",
+      "name": "Kg. Orang Kaya Besar Imas",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-115",
+      "name": "Kg. Pulaie",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-116",
+      "name": "Kg. Pusar Ulak",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-117",
+      "name": "Kg. Putat",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-118",
+      "name": "Kg. Rimba",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-119",
+      "name": "Kg. Riong",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-120",
+      "name": "Kg. Saba Darat A",
+      "mukim": "Saba",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-125",
+      "name": "Kg. Sabun",
+      "mukim": "Serasa",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-126",
+      "name": "Kg. Salambigar",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-127",
+      "name": "Kg. Salar",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-128",
+      "name": "Kg. Selayun",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-129",
+      "name": "Kg. Sengkurong A",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-130",
+      "name": "Kg. Sengkurong B",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-131",
+      "name": "Kg. Serasa",
+      "mukim": "Serasa",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-132",
+      "name": "Kg. Serdang",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-133",
+      "name": "Kg. Serusop",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-134",
+      "name": "Kg. Setia A",
+      "mukim": "Sungai Kebun",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-135",
+      "name": "Kg. Setia B",
+      "mukim": "Sungai Kebun",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-136",
+      "name": "Kg. Setia Pahlawan",
+      "mukim": "Peramu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-137",
+      "name": "Kg. Sungai Lampai",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-138",
+      "name": "Kg. Sinarubai",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-139",
+      "name": "Kg. Subok",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-140",
+      "name": "Kg. Sungai Akar",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-173",
+      "name": "Mengkubau",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-174",
+      "name": "PEKAN MUARA",
+      "mukim": "Serasa",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-176",
+      "name": "STKRJ Lambak Kiri",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-177",
+      "name": "Kg. Meragang",
+      "mukim": "Serasa",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-178",
+      "name": "Kg. Parit",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-179",
+      "name": "Kg. Parit",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-180",
+      "name": "Kg. Panchor",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-181",
+      "name": "Lingkungan Diplomatik",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-182",
+      "name": "Kg. Belaban",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-183",
+      "name": "Kg. Sibulu",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-184",
+      "name": "Kg. Selangan",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-185",
+      "name": "Kg. Parit",
+      "mukim": "Amo",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-186",
+      "name": "Kg. Kastam Lama",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-187",
+      "name": "Kg. Parit Belayang",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-188",
+      "name": "Kg. Peliunan",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-189",
+      "name": "Kg. Sungai Sulok",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-190",
+      "name": "Kg. Sungai Getahan",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-191",
+      "name": "Kg. Seri Tanjong Belayang",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-152",
+      "name": "Kg. Sungai Siamas",
+      "mukim": "Sungai Kebun",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-153",
+      "name": "Kg. Sungai Tilong",
+      "mukim": "Berakas B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-121",
+      "name": "Kg. Saba Darat B",
+      "mukim": "Saba",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-122",
+      "name": "Kg. Saba Laut",
+      "mukim": "Saba",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-123",
+      "name": "Kg. Saba Tengah",
+      "mukim": "Saba",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-124",
+      "name": "Kg. Saba ujong",
+      "mukim": "Saba",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-105",
+      "name": "Kg. Pengiran Bendahara Lama",
+      "mukim": "Tamoi",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-106",
+      "name": "Kg. Pengiran Kerma Indera Lama",
+      "mukim": "Tamoi",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-107",
+      "name": "Kg. Pengiran Pemancha Lama",
+      "mukim": "Sungai Kedayan",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-108",
+      "name": "Kg. Pengiran Setia Negara",
+      "mukim": "Burong Pingai Ayer",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-109",
+      "name": "Kg. Pengiran Siraja Muda Delima Satu",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-110",
+      "name": "Kg. Pengiran Tajuddin Hitam",
+      "mukim": "Tamoi",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-111",
+      "name": "Kg. Peninjau",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-112",
+      "name": "Kg. Peramu",
+      "mukim": "Peramu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-113",
+      "name": "Kg. Pintu Malim",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-114",
+      "name": "Kg. Pudak",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-201",
+      "name": "Kg. Subok",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-202",
+      "name": "Kg. Kinalong",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-203",
+      "name": "Kg. Ujong Jalan",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-204",
+      "name": "Kg. Bang Bulan",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-205",
+      "name": "Kg. Piungan",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-206",
+      "name": "Kg. Belingos",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-207",
+      "name": "Kg. Lagau",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-208",
+      "name": "Kg. Luagan",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-209",
+      "name": "Kg. Negalang Unat",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-210",
+      "name": "Kg. Lakiun",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-154",
+      "name": "Kg. Tagap",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-155",
+      "name": "Kg. Tamoi Tengah",
+      "mukim": "Tamoi",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-156",
+      "name": "Kg. Tamoi Ujong",
+      "mukim": "Tamoi",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-158",
+      "name": "Kg. Tanjong Bunut",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-159",
+      "name": "Kg. Tanjong Kindana",
+      "mukim": "Kota Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-160",
+      "name": "Kg. Tanjong Nangka",
+      "mukim": "Sengkurong",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-161",
+      "name": "Kg. Tarap Bau",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-162",
+      "name": "Kg. Tasek Lama",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-163",
+      "name": "Kg. Tasek Meradun",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-164",
+      "name": "Kg. Telanai",
+      "mukim": "Kilanas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-165",
+      "name": "Kg. Terunjing",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-166",
+      "name": "Kg. Tumasek",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-167",
+      "name": "Kg. Tungkadeh",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-169",
+      "name": "Kg. Ujong Bukit",
+      "mukim": "Tamoi",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-170",
+      "name": "Kg. Ujong Kelinik",
+      "mukim": "Sungai Kebun",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-171",
+      "name": "Kg. Ujong Tanjong",
+      "mukim": "Sungai Kedayan",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-172",
+      "name": "Kg. Wasan",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-245",
+      "name": "STKRJ Mata-Mata Kawasan 2",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-246",
+      "name": "Kg. Perpindahan Mata-Mata",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-247",
+      "name": "STKRJ Mata-Mata Kawasan 3",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-248",
+      "name": "STKRJ Mata-Mata Kawasan 1",
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-192",
+      "name": "Kg. Menengah",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-193",
+      "name": "Kg. Sungai Tanit",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-194",
+      "name": "PEKAN BANGAR",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-195",
+      "name": "Kg. Batang Tuau",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-196",
+      "name": "Kg. Sungai Tanam",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-197",
+      "name": "Kg. Gadong",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-198",
+      "name": "Kg. Batu Bejarah",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-199",
+      "name": "Kg. Puni",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-200",
+      "name": "Kg. Semamang",
+      "mukim": "Bangar",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-213",
+      "name": "Kg. Batu Apoi",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-214",
+      "name": "Kg. Peliunan",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-215",
+      "name": "Kg. Tanjong Bungar",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-216",
+      "name": "Kg. Rebada",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-217",
+      "name": "Kg. Lamaling",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-218",
+      "name": "Kg. Sungai Radang",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-219",
+      "name": "Kg. Gadong Baru",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-220",
+      "name": "Kg. Simbatang",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-221",
+      "name": "Kg. Sekurop",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-259",
+      "name": "Kg. Kilugus",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-226",
+      "name": "Kg. Paya Bagangan",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-227",
+      "name": "Kg. Bokok",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-228",
+      "name": "Kg. Maniup",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-229",
+      "name": "Kg. Bakarut",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-230",
+      "name": "Kg. Simbatang",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-231",
+      "name": "Kg. Kenua",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-232",
+      "name": "Hutan Simpan Labu",
+      "mukim": "Labu",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-233",
+      "name": "Kg. Piasau-Piasau",
+      "mukim": "Labu",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-234",
+      "name": "Kg. Perdayan",
+      "mukim": "Labu",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-235",
+      "name": "Kg. Labu Estate",
+      "mukim": "Labu",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-236",
+      "name": "Kg. Senukoh",
+      "mukim": "Labu",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-237",
+      "name": "Hutan Simpan Perdayan",
+      "mukim": "Labu",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-238",
+      "name": "Kg. Kuala Lurah",
+      "mukim": "Pangkalan Batu",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-240",
+      "name": "Kg. Maraburong",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-241",
+      "name": "Kg. Kupang",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-242",
+      "name": "Kg. Sungai Kelugos",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-243",
+      "name": "Kg. Birau",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-244",
+      "name": "Kg. Batang Mitus",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-252",
+      "name": "STKRJ Tungku Kawasan 2",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-253",
+      "name": "STKRJ Rimba",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-254",
+      "name": "Kg. Sumbiling Lama",
+      "mukim": "Sungai Kedayan",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-255",
+      "name": "Kg. Bukit Salat",
+      "mukim": "Sungai Kedayan",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-256",
+      "name": "PUSAT BANDAR",
+      "mukim": "Kianggeh",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-257",
+      "name": "Kg. Panchor",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-258",
+      "name": "STKRJ Lumapas Kawasan 1",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-249",
+      "name": null,
+      "mukim": "Gadong B",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-250",
+      "name": "STKRJ Tungku Kawasan 1",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-251",
+      "name": "STKRJ Tungku Kawasan 3",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-222",
+      "name": "Kg. Buda-Buda",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-223",
+      "name": "Kg. Belais Kecil",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-224",
+      "name": "Kg. Belais Besar",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-225",
+      "name": "Kg. Rataie",
+      "mukim": "Bokok",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-211",
+      "name": "Kg. Negalang Ering",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-212",
+      "name": "Kg. Selilit",
+      "mukim": "Batu Apoi",
+      "district": "Temburong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-292",
+      "name": "Kg. Penyarap",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-293",
+      "name": "Kg. Sungai Damit",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-294",
+      "name": "Kg. Sungai Lutong",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-295",
+      "name": "Kg. Sungai Mendaram",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-296",
+      "name": "Kg. Tanjong Rangas",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-297",
+      "name": "Kg. Tanjong Sudai",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-298",
+      "name": "Kg. Tugong",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-299",
+      "name": null,
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-300",
+      "name": "Kg. Gates",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-301",
+      "name": "Kg. Kenapol",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-302",
+      "name": "Kg. Labi",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-303",
+      "name": "Kg. Labi Lama",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-304",
+      "name": "Kg. Rampayoh",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-305",
+      "name": "Kg. Ratan",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-312",
+      "name": "Kg. Bisut",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-313",
+      "name": "Kg. Bukit Kandol",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-314",
+      "name": "Kg. Bukit Sawat",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-315",
+      "name": "Kg. Merangking",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-316",
+      "name": "Kg. Merangking Hilir",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-317",
+      "name": "Kg. Merangking Ulu",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-318",
+      "name": "Kg. Pangkalan Siong",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-319",
+      "name": "Kg. Pulau Apil",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-320",
+      "name": "Kg. Sungai Mau",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-330",
+      "name": "Kg. Kandang",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-331",
+      "name": "Kg. Serambangun",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-332",
+      "name": "Kg. Petani",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-260",
+      "name": "Kg. Kilugus",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-261",
+      "name": "Kg. Kasat",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-262",
+      "name": "Kg. Baong",
+      "mukim": "Lumapas",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-264",
+      "name": "Kg. Sungai Buloh",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-265",
+      "name": "Kg. Luagan Timbaran",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-266",
+      "name": "Kg. Kukub",
+      "mukim": "Sukang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-267",
+      "name": "Hutan Simpan Bukit Ladan",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-268",
+      "name": "Kg. Lalipo",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-269",
+      "name": "Kg. Supon Kechil",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-270",
+      "name": "Kg. Bedawan",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-271",
+      "name": "Kg. Belabau",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-272",
+      "name": "Kg. Layong",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-273",
+      "name": "Kg. Biong",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-274",
+      "name": "Kg. Bintudoh",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-275",
+      "name": "Kg. Bukit Bang Dalam",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-276",
+      "name": "Kg. Bukit Puan",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-277",
+      "name": "Kg. Apak-Apak",
+      "mukim": "Sukang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-278",
+      "name": "Kg. Sungai Hilir",
+      "mukim": "Sukang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-279",
+      "name": "Kg. Bukit Sulang",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-280",
+      "name": "Kg. Menengah",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-281",
+      "name": "Kg. Mumong A",
+      "mukim": "Kuala Belait",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-282",
+      "name": "Kg. Mumong B",
+      "mukim": "Kuala Belait",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-283",
+      "name": "PEKAN KUALA BELAIT",
+      "mukim": "Kuala Belait",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-284",
+      "name": "Kg. Pandan A",
+      "mukim": "Kuala Belait",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-285",
+      "name": "Kg. Pandan B",
+      "mukim": "Kuala Belait",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-286",
+      "name": "Kg. Pandan C",
+      "mukim": "Kuala Belait",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-287",
+      "name": "Kg. Kajitan",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-288",
+      "name": "Kg. Kuala Balai",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-289",
+      "name": "Kg. Lubok Tapang",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-290",
+      "name": "Kg. Lubok Lanyap",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-291",
+      "name": "Kg. Pangalayan",
+      "mukim": "Kuala Balai",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-407",
+      "name": "Kg. Rambai",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-408",
+      "name": "Kg. Kuala Ungar",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-409",
+      "name": "Kg. Bukit",
+      "mukim": "Ukong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-410",
+      "name": "Kg. Ukong",
+      "mukim": "Ukong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-352",
+      "name": "Kg. Kebia",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-333",
+      "name": "Kg. Panchor Dulit",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-334",
+      "name": "Kg. Sengkarai",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-335",
+      "name": "Bukit Bendera",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-336",
+      "name": "Kg. Panchor Papan",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-338",
+      "name": "Kg. Tanah Burok",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-340",
+      "name": "Paya Pekan Tutong",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-341",
+      "name": "Kg. Bakiau",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-342",
+      "name": "Kg. Kiudang",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-343",
+      "name": "Kg. Pad Nunok",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-344",
+      "name": "Kg. Mungkom",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-345",
+      "name": "Kg. Panapar-Danau",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-346",
+      "name": "Kg. Penyatang",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-347",
+      "name": "Kg. Binchaya",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-348",
+      "name": "Kg. Bukit Beruang",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-349",
+      "name": "Kg. Bukit Pasir",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-350",
+      "name": "Kg. Telamba",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-351",
+      "name": "Kg. Pangkalan Mau",
+      "mukim": "Kiudang",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-321",
+      "name": "Kg. Tarap",
+      "mukim": "Bukit Sawat",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-322",
+      "name": "Kg. Pangkalan Dalai",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-323",
+      "name": "Kg. Telisai",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-324",
+      "name": "Kg. Luagan Dudok",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-325",
+      "name": "Kg. Bukit Panggal",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-326",
+      "name": "Kg. Sinaut",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-327",
+      "name": "Kg. Keriam",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-307",
+      "name": "Kg. Sungai Petai",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-308",
+      "name": "Kg. Tanajor",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-309",
+      "name": "Kg. Tapang Lupak",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-310",
+      "name": "Kg. Terawan",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-311",
+      "name": "Kg. Terunan",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-397",
+      "name": "Kg. Sungai Melilit",
+      "mukim": "Kuala Belait",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-398",
+      "name": "Kg. Sungai Teraban",
+      "mukim": "Kuala Belait",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-399",
+      "name": "Kg. Sungai Bakong",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-400",
+      "name": "Perumahan Negara Lumut Kawasan 1",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-401",
+      "name": "Hutan Simpan Andulau",
+      "mukim": "Ukong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-402",
+      "name": "Kg. Bukit Udal",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-403",
+      "name": "Kg. Supon Besar",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-404",
+      "name": "Kg. Long Mayan",
+      "mukim": "Ukong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-405",
+      "name": "Kg. Pak Bidang",
+      "mukim": "Ukong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-406",
+      "name": "Kg. Merimbun",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-393",
+      "name": "STKRJ Lumut",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-394",
+      "name": "Kg. Lumut Tersusun",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-395",
+      "name": "Kg. Sungai Kuru",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-396",
+      "name": "PEKAN SERIA Kawasan II",
+      "mukim": "Seria",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-414",
+      "name": "Kg. Panchung",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-415",
+      "name": "Hutan Simpan Bukit Ladan",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-416",
+      "name": "Kg. Sukang",
+      "mukim": "Sukang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-417",
+      "name": "Kg. Melilas",
+      "mukim": "Melilas",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-418",
+      "name": "Kg. Bang Garang",
+      "mukim": "Melilas",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-419",
+      "name": "Kg. Dungun",
+      "mukim": "Sukang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-420",
+      "name": "Kg. Bukit Tuding",
+      "mukim": "Melilas",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-421",
+      "name": "Kg. Mendaram Kecil",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-422",
+      "name": "Kg. Teraja",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-895",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-901",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-914",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-917",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-884",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-908",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-894",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-353",
+      "name": "Kg. Kuala Abang",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-354",
+      "name": "Kg. Lamunin",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-355",
+      "name": "Kg. Bukit Barun",
+      "mukim": "Lamunin",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-358",
+      "name": "Kg. Tanjong Panjang",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-359",
+      "name": "Kg. Liulon",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-360",
+      "name": "Kg. Bangunggos",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-361",
+      "name": "Kg. Sebakit",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-362",
+      "name": "Kg. Penapar",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-363",
+      "name": "Kg. Pemadang",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-364",
+      "name": "Kg. Lubok Pulau",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-365",
+      "name": "Kg. Tanjong Maya",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-366",
+      "name": "Kg. Padang",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-367",
+      "name": "Kg. Bukit Sibut",
+      "mukim": "Tanjong Maya",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-368",
+      "name": "Kg. Sungai Paku",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-369",
+      "name": "Kg. Keramut",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-370",
+      "name": null,
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-371",
+      "name": "Perkhemahan Lumut",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-372",
+      "name": "Kg. Sungai Tali",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-373",
+      "name": "Perumahan Negara Lumut Kawasan 2",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-374",
+      "name": "Kg. Lumut",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-375",
+      "name": "Hutan Simpan Andulau",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-376",
+      "name": "Kg. Sungai Kang",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-377",
+      "name": "Kg. Sungai Liang",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-378",
+      "name": "Kg. Perumpong",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-379",
+      "name": "Kg. Sungai Gana",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-380",
+      "name": "Kg. Lilas",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-381",
+      "name": "Kg. Tunggulian",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-382",
+      "name": "Kg. Keluyoh",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-383",
+      "name": "Kg. Agis-Agis",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-384",
+      "name": "Kg. Sungai Lalit",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-385",
+      "name": "Kg. Sungai Taring",
+      "mukim": "Liang",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-386",
+      "name": "PEKAN SERIA Kawasan I",
+      "mukim": "Seria",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-387",
+      "name": "Kg. Panaga",
+      "mukim": "Seria",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-388",
+      "name": "Kg. Lorong Tiga Selatan",
+      "mukim": "Seria",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-389",
+      "name": "Perumahan Negara Lorong Tengah Seria",
+      "mukim": "Seria",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-390",
+      "name": "Kg. Sungai Bera",
+      "mukim": "Seria",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-391",
+      "name": "Kg. Anduki",
+      "mukim": "Seria",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-392",
+      "name": "Badas",
+      "mukim": "Seria",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-983",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-964",
+      "name": "Tutong Kem",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-963",
+      "name": "Kg. Penanjong",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-962",
+      "name": "Kawasan Padang Tembak Binturan",
+      "mukim": "Keriam",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-967",
+      "name": "Kg. Kuala Tutong",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-966",
+      "name": "Kg. Penabai",
+      "mukim": "Pekan Tutong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-968",
+      "name": "Kg. Danau",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-969",
+      "name": "Kg. Tumpuan Ugas",
+      "mukim": "Telisai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-306",
+      "name": "Kg. Simpang Tiga",
+      "mukim": "Labi",
+      "district": "Belait",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-893",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-902",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-915",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-920",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-932",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-927",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-925",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-929",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-921",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-924",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-922",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-954",
+      "name": "Kg. Tungku",
+      "mukim": "Gadong A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-958",
+      "name": "Perkhemahan Berakas",
+      "mukim": "Berakas A",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-923",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-928",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-933",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-926",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-930",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-910",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-883",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-896",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-913",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-911",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-882",
+      "name": null,
+      "mukim": "",
+      "district": "",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-411",
+      "name": "Kg. Sungai Damit Pemadang",
+      "mukim": "Ukong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-412",
+      "name": "Kg. Pangkalan Ra'an",
+      "mukim": "Ukong",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-413",
+      "name": "Kg. Benutan",
+      "mukim": "Rambai",
+      "district": "Tutong",
+      "type": "kampong"
+    },
+    {
+      "id": "kampong-959",
+      "name": "Kg. Tanah Jambu",
+      "mukim": "Mentiri",
+      "district": "Brunei-Muara",
+      "type": "kampong"
+    }
+  ]
+}
