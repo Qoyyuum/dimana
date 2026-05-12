@@ -123,6 +123,51 @@
         <h3 class="font-bold text-gray-900 dark:text-white">{{ $t('quiz.temburong') }}</h3>
         <p class="text-sm text-gray-500 dark:text-gray-400">{{ $t('quiz.temburongDesc') }}</p>
       </button>
+
+      <!-- Kampong quizzes -->
+      <div class="col-span-full mt-4">
+        <h2 class="text-lg font-semibold text-gray-700 dark:text-gray-300">{{ $t('home.kampongs') }}</h2>
+      </div>
+
+      <button
+        class="card text-left hover:shadow-md transition-shadow cursor-pointer"
+        @click="startQuiz('allKampongs')"
+      >
+        <h3 class="font-bold text-gray-900 dark:text-white">{{ $t('quiz.allKampongs') }}</h3>
+        <p class="text-sm text-gray-500 dark:text-gray-400">{{ $t('quiz.allKampongsDesc') }}</p>
+      </button>
+
+      <button
+        class="card text-left hover:shadow-md transition-shadow cursor-pointer"
+        @click="startQuiz('kampongsBruneiMuara')"
+      >
+        <h3 class="font-bold text-gray-900 dark:text-white">{{ $t('quiz.kampongsBruneiMuara') }}</h3>
+        <p class="text-sm text-gray-500 dark:text-gray-400">{{ $t('quiz.kampongsBruneiMuaraDesc') }}</p>
+      </button>
+
+      <button
+        class="card text-left hover:shadow-md transition-shadow cursor-pointer"
+        @click="startQuiz('kampongsBelait')"
+      >
+        <h3 class="font-bold text-gray-900 dark:text-white">{{ $t('quiz.kampongsBelait') }}</h3>
+        <p class="text-sm text-gray-500 dark:text-gray-400">{{ $t('quiz.kampongsBelaitDesc') }}</p>
+      </button>
+
+      <button
+        class="card text-left hover:shadow-md transition-shadow cursor-pointer"
+        @click="startQuiz('kampongsTutong')"
+      >
+        <h3 class="font-bold text-gray-900 dark:text-white">{{ $t('quiz.kampongsTutong') }}</h3>
+        <p class="text-sm text-gray-500 dark:text-gray-400">{{ $t('quiz.kampongsTutongDesc') }}</p>
+      </button>
+
+      <button
+        class="card text-left hover:shadow-md transition-shadow cursor-pointer"
+        @click="startQuiz('kampongsTemburong')"
+      >
+        <h3 class="font-bold text-gray-900 dark:text-white">{{ $t('quiz.kampongsTemburong') }}</h3>
+        <p class="text-sm text-gray-500 dark:text-gray-400">{{ $t('quiz.kampongsTemburongDesc') }}</p>
+      </button>
     </div>
   </div>
 </template>
@@ -142,6 +187,7 @@ const answered = ref(false)
 const selectedOption = ref('')
 const currentOptions = ref<string[]>([])
 const lastCategory = ref('')
+const allPoolNames = ref<string[]>([])
 
 onMounted(async () => {
   await areas.loadAreas()
@@ -177,10 +223,27 @@ function startQuiz(category: string) {
     case 'temburong':
       pool = areas.getAreasByDistrict('Temburong')
       break
+    case 'allKampongs':
+      pool = areas.getValidKampongs()
+      break
+    case 'kampongsBruneiMuara':
+      pool = areas.getKampongsByDistrict('Brunei-Muara')
+      break
+    case 'kampongsBelait':
+      pool = areas.getKampongsByDistrict('Belait')
+      break
+    case 'kampongsTutong':
+      pool = areas.getKampongsByDistrict('Tutong')
+      break
+    case 'kampongsTemburong':
+      pool = areas.getKampongsByDistrict('Temburong')
+      break
   }
 
-  // Shuffle
-  quizAreas.value = [...pool].sort(() => Math.random() - 0.5)
+  // Shuffle and cap at 20 for large pools
+  const shuffled = [...pool].sort(() => Math.random() - 0.5)
+  quizAreas.value = shuffled.length > 20 ? shuffled.slice(0, 20) : shuffled
+  allPoolNames.value = [...new Set(pool.map(a => a.name).filter(Boolean))]
   currentIndex.value = 0
   score.value = 0
   quizActive.value = true
@@ -192,8 +255,10 @@ function generateOptions() {
   const correct = quizAreas.value[currentIndex.value]
   if (!correct) return
 
-  const allNames = quizAreas.value.map(a => a.name)
-  const wrong = allNames.filter(n => n !== correct.name).sort(() => Math.random() - 0.5).slice(0, 3)
+  const wrong = allPoolNames.value
+    .filter(n => n !== correct.name)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 3)
   currentOptions.value = [...wrong, correct.name].sort(() => Math.random() - 0.5)
   answered.value = false
   selectedOption.value = ''

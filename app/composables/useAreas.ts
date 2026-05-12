@@ -47,6 +47,16 @@ export function useAreas() {
     return areasData.value.mukims.filter(m => m.district === district)
   }
 
+  function getKampongsByDistrict(district: string): AreaInfo[] {
+    if (!areasData.value) return []
+    return areasData.value.kampongs.filter(k => k.name && k.district === district)
+  }
+
+  function getValidKampongs(): AreaInfo[] {
+    if (!areasData.value) return []
+    return areasData.value.kampongs.filter(k => k.name && k.district)
+  }
+
   function getDistrictNames(): string[] {
     if (!areasData.value) return []
     return areasData.value.districts.map(d => d.name)
@@ -95,6 +105,8 @@ export function useAreas() {
     loading,
     loadAreas,
     getAreasByDistrict,
+    getKampongsByDistrict,
+    getValidKampongs,
     getDistrictNames,
     getAllMukims,
     getAllKampongs,

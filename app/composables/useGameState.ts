@@ -5,7 +5,7 @@ import { useAreas, type AreaInfo } from './useAreas'
 
 export type GameMode = 'nameIt' | 'findIt'
 export type GamePhase = 'idle' | 'question' | 'result' | 'sessionComplete'
-export type StudyCollection = 'allMukims' | 'allKampongs' | 'bruneiMuara' | 'belait' | 'tutong' | 'temburong'
+export type StudyCollection = 'allMukims' | 'allKampongs' | 'bruneiMuara' | 'belait' | 'tutong' | 'temburong' | 'kampongsBruneiMuara' | 'kampongsBelait' | 'kampongsTutong' | 'kampongsTemburong'
 
 export function useGameState() {
   const storage = useStorage()
@@ -29,7 +29,7 @@ export function useGameState() {
       case 'allMukims':
         return areas.getAllMukims()
       case 'allKampongs':
-        return areas.getAllKampongs()
+        return areas.getValidKampongs()
       case 'bruneiMuara':
         return areas.getAreasByDistrict('Brunei-Muara')
       case 'belait':
@@ -38,6 +38,14 @@ export function useGameState() {
         return areas.getAreasByDistrict('Tutong')
       case 'temburong':
         return areas.getAreasByDistrict('Temburong')
+      case 'kampongsBruneiMuara':
+        return areas.getKampongsByDistrict('Brunei-Muara')
+      case 'kampongsBelait':
+        return areas.getKampongsByDistrict('Belait')
+      case 'kampongsTutong':
+        return areas.getKampongsByDistrict('Tutong')
+      case 'kampongsTemburong':
+        return areas.getKampongsByDistrict('Temburong')
       default:
         return areas.getAllMukims()
     }
@@ -161,7 +169,8 @@ export function useGameState() {
       return
     }
 
-    const type = studyCollection.value === 'allKampongs' ? 'kampong' : 'mukim'
+    const isKampongCollection = studyCollection.value === 'allKampongs' || studyCollection.value.startsWith('kampongs')
+    const type = isKampongCollection ? 'kampong' : 'mukim'
     suggestions.value = areas.searchAreas(query, type)
     showSuggestions.value = suggestions.value.length > 0
   }
