@@ -72,7 +72,7 @@ export function useAreas() {
     ]
     return all.find(a => {
       if (type && a.type !== type) return false
-      return a.name.toLowerCase() === lower
+      return a.name && a.name.toLowerCase() === lower
     })
   }
 
@@ -86,7 +86,7 @@ export function useAreas() {
       : [...areasData.value.mukims, ...areasData.value.kampongs]
 
     return all
-      .filter(a => a.name.toLowerCase().includes(lower))
+      .filter(a => a.name && a.name.toLowerCase().includes(lower))
       .slice(0, limit)
   }
 
