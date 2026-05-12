@@ -23,6 +23,7 @@ export function useGameState() {
   const queue = ref<AreaInfo[]>([])
   const showSuggestions = ref(false)
   const suggestions = ref<AreaInfo[]>([])
+  const sessionResults = ref<boolean[]>([])
 
   function getCollectionAreas(): AreaInfo[] {
     switch (studyCollection.value) {
@@ -93,6 +94,7 @@ export function useGameState() {
     storage.load()
     sessionCorrect.value = 0
     sessionTotal.value = 0
+    sessionResults.value = []
     buildQueue(count)
 
     if (queue.value.length > 0) {
@@ -143,6 +145,7 @@ export function useGameState() {
 
     sessionTotal.value++
     if (isCorrect.value) sessionCorrect.value++
+    sessionResults.value.push(isCorrect.value)
 
     // Update FSRS card
     let card = storage.getCard(currentArea.value.id)
@@ -211,6 +214,7 @@ export function useGameState() {
     queue,
     showSuggestions,
     suggestions,
+    sessionResults,
     dueCount,
     newCount,
     learnedCount,

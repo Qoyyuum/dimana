@@ -50,7 +50,10 @@
     "new": "new",
     "more": "more",
     "seen": "seen",
-    "of": "of"
+    "of": "of",
+    "shareWhatsApp": "WhatsApp",
+    "copyScore": "Copy Score",
+    "copied": "Copied!"
   },
   "quiz": {
     "title": "Geography Quizzes",

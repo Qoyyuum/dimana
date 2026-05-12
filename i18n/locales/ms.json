@@ -50,7 +50,10 @@
     "new": "baru",
     "more": "lagi",
     "seen": "dilihat",
-    "of": "dari"
+    "of": "dari",
+    "shareWhatsApp": "WhatsApp",
+    "copyScore": "Salin Markah",
+    "copied": "Disalin!"
   },
   "quiz": {
     "title": "Kuiz Geografi",
