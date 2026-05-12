@@ -243,7 +243,7 @@ function startQuiz(category: string) {
   // Shuffle and cap at 20 for large pools
   const shuffled = [...pool].sort(() => Math.random() - 0.5)
   quizAreas.value = shuffled.length > 20 ? shuffled.slice(0, 20) : shuffled
-  allPoolNames.value = pool.map(a => a.name).filter(Boolean)
+  allPoolNames.value = [...new Set(pool.map(a => a.name).filter(Boolean))]
   currentIndex.value = 0
   score.value = 0
   quizActive.value = true
