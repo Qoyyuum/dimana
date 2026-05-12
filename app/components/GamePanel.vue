@@ -11,7 +11,7 @@
         </p>
 
         <button class="btn-primary w-full" @click="onStart">
-          {{ $t('home.startButton') }}
+          {{ $t(startButtonKey) }}
         </button>
 
         <!-- Mode toggle -->
@@ -42,11 +42,20 @@
             v-model="studyCollection"
             class="text-sm border border-gray-300 rounded-lg px-3 py-1.5 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200"
           >
-            <option value="allMukims">{{ $t('home.studyingAll') }} (39)</option>
-            <option value="bruneiMuara">Brunei-Muara (18)</option>
-            <option value="belait">Belait (8)</option>
-            <option value="tutong">Tutong (8)</option>
-            <option value="temburong">Temburong (5)</option>
+            <optgroup :label="$t('home.mukims')">
+              <option value="allMukims">{{ $t('home.allMukims') }} (39)</option>
+              <option value="bruneiMuara">Brunei-Muara (18)</option>
+              <option value="belait">Belait (8)</option>
+              <option value="tutong">Tutong (8)</option>
+              <option value="temburong">Temburong (5)</option>
+            </optgroup>
+            <optgroup :label="$t('home.kampongs')">
+              <option value="allKampongs">{{ $t('home.allKampongs') }} (418)</option>
+              <option value="kampongsBruneiMuara">Brunei-Muara (186)</option>
+              <option value="kampongsBelait">Belait (81)</option>
+              <option value="kampongsTutong">Tutong (82)</option>
+              <option value="kampongsTemburong">Temburong (69)</option>
+            </optgroup>
           </select>
         </div>
 
@@ -183,7 +192,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, nextTick } from 'vue'
+import { ref, nextTick, computed } from 'vue'
 import type { GameMode, GamePhase, StudyCollection } from '~/composables/useGameState'
 import type { AreaInfo } from '~/composables/useAreas'
 
@@ -218,6 +227,15 @@ const phase = defineModel<GamePhase>('phase')
 const userAnswer = ref('')
 const answerInput = ref<HTMLInputElement>()
 const localShowSuggestions = ref(false)
+
+const isKampongMode = computed(() => {
+  const sc = studyCollection.value
+  return sc === 'allKampongs' || (sc && sc.startsWith('kampongs'))
+})
+
+const startButtonKey = computed(() => {
+  return isKampongMode.value ? 'home.startButtonKampongs' : 'home.startButtonMukims'
+})
 
 function onStart() {
   emit('start')
