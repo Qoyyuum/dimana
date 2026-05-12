@@ -47,7 +47,8 @@ const mapRef = ref<InstanceType<typeof BruneiMap> | null>(null)
 const mapReady = ref(false)
 
 const currentLayer = computed(() => {
-  return game.studyCollection.value === 'allKampongs' ? 'kampongs' : 'mukims'
+  const sc = game.studyCollection.value
+  return (sc === 'allKampongs' || sc.startsWith('kampongs')) ? 'kampongs' : 'mukims'
 })
 
 onMounted(async () => {
