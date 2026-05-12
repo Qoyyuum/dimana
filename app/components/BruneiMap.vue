@@ -4,7 +4,10 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount, watch } from 'vue'
-import maplibregl from 'maplibre-gl'
+import maplibregl, { type LngLatBoundsLike } from 'maplibre-gl'
+
+// Store loaded GeoJSON data for bounding box lookups
+let geoData: Record<string, any> = {}
 
 const props = defineProps<{
   highlightId?: number | null
@@ -77,6 +80,9 @@ async function addGeoJsonLayers() {
   const districts = await districtsRes.json()
   const mukims = await mukimsRes.json()
   const kampongs = await kampongsRes.json()
+
+  // Store for bbox lookups
+  geoData = { districts, mukims, kampongs }
 
   // Add sources
   map.addSource('districts', { type: 'geojson', data: districts })
@@ -282,6 +288,40 @@ function clearHighlights() {
   }
 }
 
+function computeBbox(coords: any): [number, number, number, number] {
+  let minLng = Infinity, minLat = Infinity, maxLng = -Infinity, maxLat = -Infinity
+
+  function walk(c: any) {
+    if (typeof c[0] === 'number' && typeof c[1] === 'number' && (c.length === 2 || c.length === 3)) {
+      if (c[0] < minLng) minLng = c[0]
+      if (c[0] > maxLng) maxLng = c[0]
+      if (c[1] < minLat) minLat = c[1]
+      if (c[1] > maxLat) maxLat = c[1]
+    } else {
+      for (const item of c) walk(item)
+    }
+  }
+
+  walk(coords)
+  return [minLng, minLat, maxLng, maxLat]
+}
+
+function fitToFeatureById(id: number, layer: string = 'mukims') {
+  if (!map || !geoData[layer]) return
+
+  const feature = geoData[layer].features.find((f: any) => f.properties.id === id)
+  if (!feature) return
+
+  const [minLng, minLat, maxLng, maxLat] = computeBbox(feature.geometry.coordinates)
+  const bounds: LngLatBoundsLike = [[minLng, minLat], [maxLng, maxLat]]
+
+  map.fitBounds(bounds, {
+    padding: { top: 80, bottom: 220, left: 40, right: 40 },
+    maxZoom: 13,
+    duration: 1200,
+  })
+}
+
 function flyToArea(center: [number, number], zoom?: number) {
   if (!map) return
   map.flyTo({ center, zoom: zoom || 11, duration: 1000 })
@@ -355,5 +395,6 @@ defineExpose({
   flyToArea,
   resetView,
   enableClickableLayer,
+  fitToFeatureById,
 })
 </script>

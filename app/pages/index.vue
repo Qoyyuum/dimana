@@ -74,6 +74,9 @@ function highlightCurrentArea() {
 
   mapRef.value.clearHighlights()
 
+  // Pan and zoom to the area so it's clearly visible
+  mapRef.value.fitToFeatureById(id, layer)
+
   if (game.mode.value === 'nameIt') {
     mapRef.value.highlightArea(id, layer)
   } else {
