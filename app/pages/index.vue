@@ -24,6 +24,7 @@
       :total-count="game.totalCount.value"
       :suggestions="game.suggestions.value"
       :show-suggestions="game.showSuggestions.value"
+      :session-results="game.sessionResults.value"
       @start="onStartSession"
       @submit-name-it="onSubmitNameIt"
       @give-up="onGiveUp"
